@@ -1,0 +1,30 @@
+<template name="survey">
+<div class="content">
+	<div class="row">
+		<div class="col-md-1"></div>	
+		<div class="col-md-11">
+			<h1>Survey</h1>
+			<h2>What best describes me? (click to vote)</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">&nbsp;</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-4">
+			<ul class="list-unstyled">
+				{{#each answers}}
+					<li class="{{votedClass}}">{{name}} - {{votes}}</li> 
+				{{/each}}
+			</ul>
+		</div>	
+		<div class="col-md-7">
+			<div class="piechart">
+				{{> piechart}}
+			</div>
+		</div>
+	</div>		
+</div>
+
+</template>
