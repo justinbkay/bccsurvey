@@ -18,7 +18,7 @@ Template.survey.events = {
 Template.survey.helpers({
 	votedClass: function() {
 		if (Session.get('voted') === this._id) {
-			return 'bg-success';
+			return '&nbsp;<span class="glyphicon glyphicon-ok"></span>';
 		};
 	}
 });

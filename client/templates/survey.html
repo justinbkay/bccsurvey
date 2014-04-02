@@ -15,7 +15,7 @@
 		<div class="col-md-4">
 			<ul class="list-unstyled">
 				{{#each answers}}
-					<li class="{{votedClass}}">{{name}} - {{votes}}</li> 
+					<li><button class="btn btn-primary">({{votes}}) - {{name}} {{{votedClass}}}</button></li> 
 				{{/each}}
 			</ul>
 		</div>	

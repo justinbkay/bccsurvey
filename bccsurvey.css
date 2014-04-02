@@ -4,3 +4,8 @@ ul.list-unstyled li {
   cursor: pointer; 
   cursor: hand;
 }
+
+li > button.btn {
+  width: 220px;
+  text-align: left;
+}
