@@ -20,5 +20,13 @@ Template.survey.helpers({
 		if (Session.get('voted') === this._id) {
 			return '&nbsp;<span class="glyphicon glyphicon-ok"></span>';
 		};
+	},
+
+	buttonClass: function() {
+		if (Session.get('voted') === this._id) {
+			return 'btn-danger'
+		} else {
+			return 'btn-primary'
+		}
 	}
 });
