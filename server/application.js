@@ -21,7 +21,7 @@ Meteor.methods({
 	vote: function(id) {
 		check(id, String);
 		Answers.update({_id: id}, {$inc: {votes: 1}});
-		return '200'
+		return '200';
 	}
 });
 
@@ -63,5 +63,5 @@ Meteor.startup(function () {
 			votes: 0
 		});
 
-	}; 	
+  }
 });
