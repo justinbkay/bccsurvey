@@ -9,7 +9,7 @@ Template.piechart.respondents = function() {
 };
 
 Template.piechart.rendered = function() {
-	
+
   Deps.autorun(function () {
   	var data = Answers.find().fetch();
 

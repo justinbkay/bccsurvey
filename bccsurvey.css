@@ -1,7 +1,7 @@
 /* CSS declarations go here */
 ul.list-unstyled li {
   font-size: 1.7em;
-  cursor: pointer; 
+  cursor: pointer;
   cursor: hand;
 }
 
