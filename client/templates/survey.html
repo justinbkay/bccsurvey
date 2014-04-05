@@ -1,25 +1,25 @@
 <template name="survey">
 <div class="content">
 	<div class="row">
-		<div class="col-md-1"></div>	
-		<div class="col-md-11">
+		<div class="col-md-1 col-sm-1"></div>	
+		<div class="col-md-11 col-sm-11">
 			<h1>Survey</h1>
 			<h2>Which of these best describes me? (click to vote)</h2>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12">&nbsp;</div>
+		<div class="col-md-12 col-sm-12">&nbsp;</div>
 	</div>
 	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-4">
+		<div class="col-md-1 col-sm-0"></div>
+		<div class="col-md-4 col-sm-3">
 			<ul class="list-unstyled">
 				{{#each answers}}
 					<li><button class="btn {{buttonClass}}">({{votes}}) - {{name}} {{{votedClass}}}</button></li> 
 				{{/each}}
 			</ul>
 		</div>	
-		<div class="col-md-7">
+		<div class="col-md-7 col-sm-8">
 			<div class="piechart">
 				{{> piechart}}
 			</div>
