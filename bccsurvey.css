@@ -9,3 +9,11 @@ li > button.btn {
   width: 220px;
   text-align: left;
 }
+
+#piechart {
+	margin: 25px 50px;
+}
+
+#respondents {
+	margin-left: 130px;
+}
