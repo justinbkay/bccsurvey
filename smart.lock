@@ -2,13 +2,19 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "bootstrap-3": {}
+      "bootstrap-3": {},
+      "connection-banner": {}
     },
     "packages": {
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
         "tag": "v3.1.1-1",
         "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+      },
+      "connection-banner": {
+        "git": "https://github.com/nate-strauser/meteor-connection-banner.git",
+        "tag": "v0.2.1",
+        "commit": "aeb866f75e626262a97e9c913ac7dd5425e5c118"
       }
     }
   }
